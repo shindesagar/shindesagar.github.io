@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "fontastic";
+  src:url("fontastic.eot");
+  src:url("fontastic.eot?#iefix") format("embedded-opentype"),
+    url("fontastic.woff") format("woff"),
+    url("fontastic.ttf") format("truetype"),
+    url("fontastic.svg#fontastic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "fontastic" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontastic" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-code:before {
+  content: "\62";
+}
+.icon-paper-plane:before {
+  content: "\63";
+}
+.icon-envelope:before {
+  content: "\64";
+}
+.icon-home:before {
+  content: "\65";
+}
+.icon-user-secret:before {
+  content: "\66";
+}
+.icon-picture-o:before {
+  content: "\67";
+}
+.icon-location:before {
+  content: "\68";
+}
+.icon-mobile:before {
+  content: "\61";
+}
+.icon-phone:before {
+  content: "\69";
+}
+.icon-responsive:before {
+  content: "\6a";
+}
+.icon-html5:before {
+  content: "\6b";
+}
+.icon-web-design:before {
+  content: "\6d";
+}
+.icon-jquery:before {
+  content: "\6c";
+}
+.icon-sass:before {
+  content: "\71";
+}
+.icon-download:before {
+  content: "\6e";
+}
+.icon-facebook:before {
+  content: "\6f";
+}
+.icon-linkedin:before {
+  content: "\70";
+}

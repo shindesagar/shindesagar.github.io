@@ -1,0 +1,263 @@
+header{
+	width:100%;
+	height: 100%;
+	float:left;
+}
+.header_container{
+	width:100%;
+	position:relative;
+	padding:15px;
+	img{
+		width:100%;
+		display:block;
+	}
+	.banner_img{
+		border: 1px solid #7d5189;
+	}
+	.info{
+		bottom: 32%;
+		position: absolute;
+		right:15%;
+		width: 390px;
+		.who_i_am{
+			width:100%;
+			margin-top:14px;
+			span{
+				width:100%;
+				font-size:22px;
+				
+			}
+			.post{
+				position:absolute;
+				opacity:0;
+				-web-transition: all 1s ease 0s;
+				-moz-transition: all 1s ease 0s;
+				-o-transition: all 1s ease 0s;
+				transition: all 1s ease 0s;
+				&.visibel{
+					opacity:1;
+					
+				}
+				span{
+					float: left;
+					font-size: 35px;
+					font-weight: 600;
+					margin-left: 5px;
+					margin-top: 5px;
+					width:100%;
+					
+				}
+			}
+			
+		}
+	}
+	.social_media{
+		position:absolute;
+		right:18%;
+		bottom:30px;;
+	}
+}
+.social_media{
+	li{
+		float:left;
+		margin:0 5px;
+		text-align:center;
+		a{
+			border: 1px solid #7d5189;
+			border-radius: 24px;
+			color: #7d5189;
+			float: left;
+			font-size: 22px;
+			height: 40px;
+			padding: 8px 9px;
+			width: 40px;
+		}
+		&:hover{
+			a{
+				&.fb{
+					background:#4862a3;
+					color:#fff;
+					border-color:#4862a3;
+				}
+				&.in{
+					background:#0177b5;
+					color:#fff;
+					border-color:#0177b5;
+				}
+				&.dw{
+					background:#e99523;
+					color:#fff;
+					border-color:#e99523;
+				}
+			}
+		}
+	}
+}
+.content{
+	float:left;
+	width:100%;
+	padding:70px 0;
+	.head{
+		text-align:center;
+		text-transform:uppercase;
+		padding:56px 0 35px;
+	}
+	p{
+		margin-bottom:20px;
+		text-align:center;
+	}
+	.content_body{
+		width:100%;
+	}
+}
+
+.about{
+	.content div{
+		width:623px;
+		margin:0 auto;
+		
+	}
+}
+.skill{
+	.content{
+		.content_head{
+			width:623px;
+			margin:0 auto;
+		}
+		.how_to_process{
+			width:53.2226%;
+		}
+		.know_web{
+			width:46.7773%;
+		}
+		.skill_ani{
+			width:330px;
+			margin:0 auto;
+			.spin{
+				width:60px;
+				height:60px;
+				float:left;
+				&.spin_two{
+					margin-left: -5px;
+					margin-top: -1px;
+				}
+				&.spin_three{
+					height: 62px;
+					margin-left: -84px;
+					margin-top: 52px;
+					width: 67px;
+				}
+			}
+		}
+	}
+}
+.wheel {
+	left: 108px;
+	position: absolute;
+	top:55px;
+}
+.project{
+	background:url(../images/project_bg.png) no-repeat 0 bottom;
+	.project_list{
+		width:961px;
+		margin:0 auto;
+	}
+	.content{
+		
+		.content_head{
+			width:623px;
+			margin:0 auto;
+		}
+		
+	}
+	.diamond_nekless {
+		font-size: 0;
+		margin: 50px auto;
+		max-width: 755px;
+		padding: 39px 0;
+		li{
+			display: inline-block;
+			font-size: 18px;
+			margin: 0 91px 10px 0;
+			.diamond {
+				background: #f4f4f4;
+				color: #000;
+				display: block;
+				height: 190px;
+				overflow: hidden;
+				position: relative;
+				text-decoration: none;
+				transform: rotate(-45deg);
+				width: 190px;
+				
+				.project_content{
+					color: #fff;
+					display: table-cell;
+					font-size: 20px;
+					font-weight: 500;
+					height: 190px;
+					line-height: 25px;
+					padding: 0 10px;
+					position: relative;
+					text-align: center;
+					transform: rotate(45deg);
+					vertical-align: middle;
+					width: 190px;
+					z-index: 2;
+				}
+				.project_logo{
+					height: 315px;
+					left: -55px;
+					position: absolute;
+					top: -50px;
+					width: 315px;
+					img{
+						position: relative;
+						transition: transform 0.3s ease 0s;
+					}
+				}
+				
+			}
+			&:nth-child(3){
+				 margin-right: 0;
+			}
+			&:nth-child(n+3){
+				margin-top: -60px;
+			}
+			&:nth-child(4){
+				 margin-left:140px;
+			}
+		}
+	}
+	.view_more{
+		border: 1px solid #ed1556;
+		border-radius: 1px;
+		color: #1a2932;
+		display: block;
+		font-size: 13px;
+		font-weight: 500;
+		height: 40px;
+		margin: -86px auto 0;
+		
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		transition: background 0.2s ease-in 0s, color 0.2s linear 0s;
+		width: 150px;
+		a{
+			float: left;
+			padding: 13px 20px;
+			width: 100%;
+		}
+	}
+}
+.contact_me{
+	background:url(../images/contact_bg.png) no-repeat 0 top;
+	.content{
+		.content_head{
+			width:623px;
+			margin:0 auto;
+		}
+		
+	}
+}
